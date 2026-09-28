@@ -1,0 +1,8 @@
+<footer class="footer">
+  <span>{{ site.title }}</span>
+  <nav>
+    <a href="{{ locale.path | relative_url }}">{{ t.home }}</a>
+    {% assign privacy_path = locale.path | append: 'privacy/' %}
+    <a href="{{ privacy_path | relative_url }}">{{ t.privacy }}</a>
+  </nav>
+</footer>

@@ -1,0 +1,14 @@
+{
+  "en": {
+    "path": "/",
+    "name": "English"
+  },
+  "fr": {
+    "path": "/fr/",
+    "name": "Français"
+  },
+  "es": {
+    "path": "/es/",
+    "name": "Español"
+  }
+}

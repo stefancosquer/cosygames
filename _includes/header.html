@@ -1,0 +1,11 @@
+<header class="header">
+  <a class="brand" href="{{ locale.path | relative_url }}">
+    <img src="{{ '/assets/icon.svg' | relative_url }}" width="38" height="38" alt="">{{ site.title }}
+  </a>
+  <nav class="languages" aria-label="{{ t.languages }}">
+    {% for entry in site.data.locales %}
+    {% assign target = entry[1].path | append: suffix %}
+    <a href="{{ target | relative_url }}" lang="{{ entry[0] }}" hreflang="{{ entry[0] }}"{% if entry[0] == page.lang %} aria-current="page"{% endif %}>{{ entry[1].name }}</a>
+    {% endfor %}
+  </nav>
+</header>

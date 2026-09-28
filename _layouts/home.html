@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% assign t = site.data.content[page.lang] %}
+<main id="main">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">{{ t.status }}</p>
+      <h1>{{ t.hero }}</h1>
+      <p class="intro">{{ t.intro }}</p>
+      <a class="cta" href="#games">{{ t.discover }} <span aria-hidden="true">↘</span></a>
+      <p class="availability">{{ t.availability }}</p>
+    </div>
+    <div class="art" aria-hidden="true">
+      <div>{% include games/0.svg %}</div>
+      <div>{% include games/5.svg %}</div>
+      <div>{% include games/7.svg %}</div>
+      <div>{% include games/3.svg %}</div>
+    </div>
+  </section>
+  <section id="games" class="section">
+    <div class="section-heading"><h2>{{ t.collection }}</h2><p>{{ t.collection_intro }}</p></div>
+    <div class="games">
+      {% for name in t.games %}
+      {% assign illustration = 'games/' | append: forloop.index0 | append: '.svg' %}
+      <article class="game">
+        <div class="miniature">{% include {{ illustration }} %}</div>
+        <div class="game-label"><h3>{{ name | escape }}</h3><small>{% if forloop.index0 < 5 %}{{ t.solo }}{% else %}{{ t.duo }}{% endif %}</small></div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="section">
+    <h2>{{ t.details }}</h2>
+    <div class="features">
+      {% for feature in t.features %}
+      <article><span class="feature-number">0{{ forloop.index }}</span><h3>{{ feature[0] | escape }}</h3><p>{{ feature[1] | escape }}</p></article>
+      {% endfor %}
+    </div>
+    <p class="limits">{{ t.limits }}</p>
+  </section>
+  <section class="section contact">
+    <div><h2>{{ t.contact_title }}</h2><p>{{ t.contact_body }}</p></div>
+    <a href="mailto:{{ site.contact }}">{{ site.contact }}</a>
+  </section>
+</main>

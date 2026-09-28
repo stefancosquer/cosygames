@@ -1,0 +1,9 @@
+build/
+vendor/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+__pycache__/
+*.pyc
+.DS_Store

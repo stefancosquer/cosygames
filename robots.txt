@@ -1,0 +1,8 @@
+---
+layout: null
+---
+User-agent: *
+{% if jekyll.environment == 'production' and site.publication_reviewed == true %}Allow: /
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
+{% else %}Disallow: /
+{% endif %}

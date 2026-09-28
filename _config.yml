@@ -1,0 +1,22 @@
+title: Cosy Games
+url: "https://cosygames.app"
+baseurl: ""
+contact: contact@cosygames.app
+privacy_updated: "2026-09-28"
+publication_reviewed: false
+host_privacy: "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+destination: build/site
+include:
+  - .nojekyll
+exclude:
+  - build
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - check.py
+  - vendor
+  - __pycache__
+  - README.md
+strict_front_matter: true
+liquid:
+  error_mode: strict

@@ -1,0 +1,40 @@
+<!doctype html>
+{% assign t = site.data.content[page.lang] %}
+{% assign locale = site.data.locales[page.lang] %}
+{% assign suffix = '' %}
+{% if page.kind == 'privacy' %}{% assign suffix = 'privacy/' %}{% endif %}
+{% capture page_title %}{% if page.kind == 'privacy' %}{{ t.privacy }} — {{ site.title }}{% elsif page.kind == 'missing' %}{{ t.not_found }} — {{ site.title }}{% else %}{{ t.title }}{% endif %}{% endcapture %}
+{% assign description = t.description %}
+{% if page.kind == 'privacy' %}{% assign description = t.privacy_intro %}{% endif %}
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page_title | strip | escape }}</title>
+  <meta name="description" content="{{ description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% for entry in site.data.locales %}
+  {% assign target = entry[1].path | append: suffix %}
+  <link rel="alternate" hreflang="{{ entry[0] }}" href="{{ target | absolute_url }}">
+  {% endfor %}
+  {% assign default_path = '/' | append: suffix %}
+  <link rel="alternate" hreflang="x-default" href="{{ default_path | absolute_url }}">
+  <meta property="og:title" content="{{ page_title | strip | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/icon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% if jekyll.environment != 'production' or page.kind == 'missing' or site.publication_reviewed != true %}
+  <meta name="robots" content="noindex,nofollow">
+  {% endif %}
+</head>
+<body>
+  <a class="skip" href="#main">{{ t.skip }}</a>
+  <div class="wrap">
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+  </div>
+</body>
+</html>
