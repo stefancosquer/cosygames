@@ -3,9 +3,12 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign kinds = 'privacy,support,legal' | split: ',' %}
 {% for entry in site.data.locales %}
   <url><loc>{{ entry[1].path | absolute_url | xml_escape }}</loc></url>
-  {% assign privacy_path = entry[1].path | append: 'privacy/' %}
-  <url><loc>{{ privacy_path | absolute_url | xml_escape }}</loc></url>
+  {% for kind in kinds %}
+  {% assign path = entry[1].path | append: kind | append: '/' %}
+  <url><loc>{{ path | absolute_url | xml_escape }}</loc></url>
+  {% endfor %}
 {% endfor %}
 </urlset>

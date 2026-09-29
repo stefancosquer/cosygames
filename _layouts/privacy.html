@@ -10,7 +10,11 @@ layout: default
   {% for section in t.privacy_sections %}
   <section><h2>{{ section[0] | escape }}</h2><p>{{ section[1] | escape }}</p></section>
   {% endfor %}
-  <p><a href="{{ site.host_privacy }}">{{ t.host_privacy }}</a></p>
+  <p><a href="{{ site.host_privacy }}">{{ t.host_privacy }}</a> · <a href="https://policies.google.com/privacy">{{ t.google_privacy }}</a></p>
+  {% assign locale = site.data.locales[page.lang] %}
+  {% assign data_path = locale.path | append: 'support/#delete-data' %}
+  {% assign legal_path = locale.path | append: 'legal/' %}
+  <p><a href="{{ data_path | relative_url }}">{{ t.data_help }}</a> · <a href="{{ legal_path | relative_url }}">{{ t.publisher_details }}</a></p>
   <h2>{{ t.contact_title }}</h2>
-  <p>{{ site.title }} · <a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
+  <p>{{ site.title }} · {{ site.data.publisher.country | escape }}<br><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
 </main>

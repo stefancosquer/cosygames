@@ -12,33 +12,85 @@
     "availability": "In development. Not yet available on Google Play.",
     "collection": "The collection",
     "collection_intro": "A puzzle for yourself. A board to share.",
-    "games": ["Sudoku", "Word Guess", "Minesweeper", "Nonograms", "Crosswords", "Chess", "International draughts", "Yam’s"],
+    "games": [
+      "Sudoku",
+      "Word Guess",
+      "Minesweeper",
+      "Nonograms",
+      "Crosswords",
+      "Chess",
+      "International draughts",
+      "Yam’s"
+    ],
     "solo": "Solo",
     "duo": "1–2 players",
     "details": "Made for a quieter screen",
     "features": [
-      ["Offline from the start", "No account needed. Puzzles, dictionaries and your saved games stay available without an internet connection."],
-      ["E-ink, and every other screen", "A monochrome interface with no app animations. Designed for e-ink, also at home on Android phones and tablets."],
-      ["Your language, your pace", "English, French and Spanish, chosen from your device settings. Pick up your saved game whenever you like."]
+      [
+        "Offline from the start",
+        "No account needed. Puzzles, dictionaries and your saved games stay available without an internet connection."
+      ],
+      [
+        "E-ink, and every other screen",
+        "A monochrome interface with no app animations. Designed for e-ink, also at home on Android phones and tablets."
+      ],
+      [
+        "Your language, your pace",
+        "English, French and Spanish, chosen from your device settings. Pick up your saved game whenever you like."
+      ]
     ],
-    "limits": "The beta includes 5 daily lives and 5 daily hints, shared across the games. Resuming a game does not use a life.",
+    "limits": "The app includes 5 daily lives shared across the games. Resuming a game does not use a life.",
     "contact_title": "Stay in touch",
     "contact_body": "A question about the app, accessibility or your data? Write to us.",
     "privacy": "Privacy policy",
     "home": "Home",
-    "privacy_intro": "This policy covers the current Cosy Games Android beta and this website.",
+    "privacy_intro": "This policy describes the data used by Cosy Games for Android, cosygames.app and support.",
     "updated": "Last updated",
     "draft": "Preview — privacy text awaiting review before publication.",
     "privacy_sections": [
-      ["Data in the Android app", "Cosy Games does not ask you to create an account. The current beta does not send gameplay data to us and includes no analytics, advertising or payment SDK. It stores games, statistics, elapsed playing time, theme preferences, lives and hints locally so that you can resume playing."],
-      ["Storage and deletion", "Local data is kept until you remove it or uninstall the app. Some beta updates reset saved games; statistics and theme preferences are preserved by the app. You can clear the app’s data in Android settings. System backups or device-to-device transfers may include app data depending on your Android settings and device; Cosy Games does not operate a cloud synchronisation service."],
-      ["This website", "This static website sets no cookies, uses no analytics and loads no third-party fonts or advertising. GitHub Pages hosts it. GitHub records visitors’ IP addresses for security purposes under its own privacy statement."],
-      ["Contact by email", "If you email us, your address and the information you choose to share are used to respond to your request. Avoid sending unnecessary sensitive information. You may use the same contact address to request access to, correction or deletion of correspondence we hold about you, subject to applicable obligations. We cannot access or recover saved games stored on your device."],
-      ["Future changes", "Ads and in-app purchases are planned but are not active in the current beta. This policy will be updated before any new data processing is introduced."]
+      [
+        "Data in the Android app",
+        "Cosy Games works without an app account, advertising or an audience analytics tool added by the publisher. Games, statistics, playing time, preferences and life balances are processed on your device. No publisher server receives this data. Google Play services used for payments and their diagnostics are described separately below."
+      ],
+      [
+        "Storage and deletion",
+        "Local data is kept until you clear it or uninstall the app. Beta updates may reset games but preserve statistics, preferences, life balances and purchase records. Android automatic backup and device transfer are disabled for app data. Extra lives from consumed packs are lost after uninstallation or clearing data and cannot be transferred. Unlimited lives can be restored with the same Google Play account. Cosy Games does not operate a cloud sync service."
+      ],
+      [
+        "This website",
+        "This static website sets no cookies, uses no analytics and loads no third-party fonts or advertising. GitHub Pages hosts it. GitHub records visitors’ IP addresses for security purposes under its own privacy statement."
+      ],
+      [
+        "Contact by email",
+        "Contacting contact@cosygames.app is optional. Your email address, message and attachments are used to answer and follow up on your request, based on our legitimate interest in providing support. Email is hosted by Google (Gmail). Correspondence is kept while handling the request and for necessary follow-up; additional retention may be needed for a dispute or legal obligation. Avoid unnecessary sensitive information. We cannot access or recover games stored on your device."
+      ],
+      [
+        "Security and sharing",
+        "Games and purchase records are stored in private Android storage protected by the operating system. Cosy Games has no developer-operated server receiving these files. We do not sell gameplay data or send it to advertising partners. Google processes payment transactions through Google Play; the app does not receive your payment card details."
+      ],
+      [
+        "Your privacy requests",
+        "Use contact@cosygames.app for privacy questions and requests concerning support emails. Depending on applicable law, you may request access, correction, deletion, restriction or object to processing, and complain to your local data protection authority. The app’s local data can be erased using Android settings; we cannot erase it remotely."
+      ],
+      [
+        "Google Play payments",
+        "Packs of 10 or 100 lives and unlimited lives are optional one-time purchases, with no subscription, processed by Google Play. The app receives product references, signed receipts, tokens and transaction status to deliver lives, verify and restore entitlements and prevent duplicate credits. Receipt signatures are checked on the device; consumption and acknowledgement requests are sent to Google Play. We never receive payment card details. Google’s payment processing is also governed by its terms and privacy policy."
+      ],
+      [
+        "Payment service diagnostics",
+        "Google Play Billing sends Google technical events about API usage, successes, errors and service connections to improve reliability. These events may occur when the store is initialized, even without a purchase. They include technical context such as device model and manufacturer, Android and app versions, language, time zone and network type. Receiving servers also receive the connection IP address. These diagnostics do not contain game grids or statistics. Google handles and retains them under its privacy policy; the publisher does not access these logs and cannot erase them remotely."
+      ],
+      [
+        "Children and families",
+        "Cosy Games is intended for ages 9 and up. It has no player messaging or advertising and does not ask for a name, age or location. Purchases are optional and use Google Play; families can use Google Play parental controls and purchase approvals. For support, children should ask a parent for help and avoid sending unnecessary personal information."
+      ]
     ],
     "host_privacy": "GitHub privacy statement",
     "not_found": "This page is not here.",
-    "back": "Back to the collection"
+    "back": "Back to the collection",
+    "data_help": "How to delete your data",
+    "publisher_details": "Publisher information",
+    "google_privacy": "Google Privacy Policy"
   },
   "fr": {
     "language": "Français",
@@ -53,33 +105,85 @@
     "availability": "En développement. Pas encore disponible sur Google Play.",
     "collection": "La collection",
     "collection_intro": "Une grille pour soi. Un plateau à partager.",
-    "games": ["Sudoku", "Mot à deviner", "Démineur", "Nonogrammes", "Mots croisés", "Échecs", "Dames internationales", "Yam’s"],
+    "games": [
+      "Sudoku",
+      "Mot à deviner",
+      "Démineur",
+      "Nonogrammes",
+      "Mots croisés",
+      "Échecs",
+      "Dames internationales",
+      "Yam’s"
+    ],
     "solo": "Solo",
     "duo": "1–2 joueurs",
     "details": "Pensée pour les écrans e-ink",
     "features": [
-      ["Hors ligne dès le départ", "Aucun compte nécessaire. Grilles, dictionnaires et parties sauvegardées restent accessibles sans connexion internet."],
-      ["E-ink, et tous les autres écrans", "Une interface monochrome sans animation applicative. Optimisée pour les liseuses, également adaptée aux téléphones et tablettes Android."],
-      ["Votre langue, votre rythme", "Français, anglais et espagnol, selon les réglages de votre appareil. Retrouvez votre partie quand vous le souhaitez."]
+      [
+        "Hors ligne dès le départ",
+        "Aucun compte nécessaire. Grilles, dictionnaires et parties sauvegardées restent accessibles sans connexion internet."
+      ],
+      [
+        "E-ink, et tous les autres écrans",
+        "Une interface monochrome sans animation applicative. Optimisée pour les liseuses, également adaptée aux téléphones et tablettes Android."
+      ],
+      [
+        "Votre langue, votre rythme",
+        "Français, anglais et espagnol, selon les réglages de votre appareil. Retrouvez votre partie quand vous le souhaitez."
+      ]
     ],
-    "limits": "La bêta comprend 5 vies du jour et 5 indices quotidiens, communs aux jeux. Reprendre une partie ne consomme pas de vie.",
+    "limits": "L’application comprend 5 vies du jour communes aux jeux. Reprendre une partie ne consomme pas de vie.",
     "contact_title": "Gardons le contact",
     "contact_body": "Une question sur l’application, l’accessibilité ou vos données ? Écrivez-nous.",
     "privacy": "Confidentialité",
     "home": "Accueil",
-    "privacy_intro": "Cette politique concerne la bêta Android actuelle de Cosy Games et ce site web.",
+    "privacy_intro": "Cette politique décrit les données utilisées par Cosy Games pour Android, le site cosygames.app et l’assistance.",
     "updated": "Dernière mise à jour",
     "draft": "Aperçu — texte de confidentialité à relire avant publication.",
     "privacy_sections": [
-      ["Données dans l’application Android", "Cosy Games ne demande pas de créer un compte. La bêta actuelle ne nous transmet aucune donnée de jeu et ne comporte aucun SDK de mesure d’audience, de publicité ou de paiement. Elle conserve localement les parties, statistiques, durées de jeu, préférences de thème, vies et indices pour permettre la reprise."],
-      ["Conservation et suppression", "Les données locales sont conservées jusqu’à leur suppression ou la désinstallation de l’application. Certaines mises à jour bêta réinitialisent les parties ; l’application préserve les statistiques et le thème. Vous pouvez effacer les données depuis les réglages Android. Les sauvegardes système ou transferts entre appareils peuvent inclure ces données selon les réglages Android et l’appareil ; Cosy Games ne propose pas de synchronisation dans le cloud."],
-      ["Ce site web", "Ce site statique ne dépose aucun cookie, ne mesure pas l’audience et ne charge ni police externe ni publicité. Il est hébergé par GitHub Pages. GitHub enregistre l’adresse IP des visiteurs à des fins de sécurité, conformément à sa propre déclaration de confidentialité."],
-      ["Contact par e-mail", "Si vous nous écrivez, votre adresse et les informations que vous choisissez de partager servent à répondre à votre demande. Évitez les données sensibles inutiles. Vous pouvez utiliser la même adresse pour demander l’accès, la rectification ou la suppression des échanges vous concernant, sous réserve des obligations applicables. Nous ne pouvons pas accéder aux parties enregistrées sur votre appareil ni les récupérer."],
-      ["Évolutions", "Les publicités et les achats intégrés sont prévus mais ne sont pas actifs dans la bêta actuelle. Cette politique sera actualisée avant l’introduction de nouveaux traitements de données."]
+      [
+        "Données dans l’application Android",
+        "Cosy Games fonctionne sans compte applicatif, sans publicité et sans outil de mesure d’audience ajouté par l’éditeur. Les parties, statistiques, durées, préférences et soldes de vies sont traités sur votre appareil. Aucun serveur de l’éditeur ne reçoit ces données. Les services Google Play utilisés pour les paiements et leurs diagnostics sont décrits séparément ci-dessous."
+      ],
+      [
+        "Conservation et suppression",
+        "Les données locales restent conservées jusqu’à leur suppression ou la désinstallation. Les mises à jour bêta peuvent réinitialiser les parties mais préservent statistiques, préférences, soldes de vies et justificatifs d’achats. Les sauvegardes Android automatiques et transferts entre appareils sont désactivés pour ces données. Les vies des packs consommés sont perdues après désinstallation ou effacement des données et ne sont pas transférables. L’illimité se restaure avec le même compte Google Play. Cosy Games ne propose pas de synchronisation cloud."
+      ],
+      [
+        "Ce site web",
+        "Ce site statique ne dépose aucun cookie, ne mesure pas l’audience et ne charge ni police externe ni publicité. Il est hébergé par GitHub Pages. GitHub enregistre l’adresse IP des visiteurs à des fins de sécurité, conformément à sa propre déclaration de confidentialité."
+      ],
+      [
+        "Contact par e-mail",
+        "Écrire à contact@cosygames.app est facultatif. Votre adresse, votre message et les pièces jointes servent à répondre à votre demande et à suivre sa résolution, sur la base de notre intérêt légitime à assurer l’assistance. La messagerie est hébergée par Google (Gmail). Les échanges sont conservés pendant le traitement et le suivi nécessaire de la demande ; une conservation supplémentaire peut être nécessaire en cas de litige ou d’obligation légale. Évitez les données sensibles inutiles. Nous ne pouvons pas accéder aux parties enregistrées sur votre appareil ni les récupérer."
+      ],
+      [
+        "Sécurité et partage",
+        "Les parties et justificatifs d’achats sont conservés dans le stockage privé Android, protégé par le système. Aucun serveur de l’éditeur ne reçoit ces fichiers. Nous ne vendons pas les données de jeu et ne les transmettons pas à des partenaires publicitaires. Google traite les transactions via Google Play ; l’application ne reçoit pas vos coordonnées de carte bancaire."
+      ],
+      [
+        "Vos demandes de confidentialité",
+        "Utilisez contact@cosygames.app pour vos questions et demandes relatives aux échanges avec l’assistance. Selon le droit applicable, vous pouvez demander l’accès, la rectification, l’effacement, la limitation ou vous opposer au traitement, et déposer une réclamation auprès de votre autorité de protection des données. Les données locales de l’app s’effacent dans les paramètres Android ; nous ne pouvons pas les supprimer à distance."
+      ],
+      [
+        "Paiements Google Play",
+        "Les packs de 10 ou 100 vies et les vies illimitées sont des paiements uniques facultatifs, sans abonnement, traités par Google Play. L’application reçoit les références de produit, les reçus signés, les jetons et l’état des transactions pour attribuer les vies, vérifier et restaurer les droits et éviter les doubles crédits. La signature des reçus est vérifiée sur l’appareil ; les consommations et acquittements sont transmis à Google Play. Nous ne recevons jamais les coordonnées de carte bancaire. Les traitements de paiement de Google relèvent également de ses conditions et de sa politique de confidentialité."
+      ],
+      [
+        "Diagnostics du service de paiement",
+        "Google Play Billing transmet à Google des événements techniques concernant l’utilisation de ses API, les réussites, les erreurs et la connexion au service, afin d’en améliorer la fiabilité. Ils peuvent accompagner l’initialisation de la boutique, même sans paiement. Ces événements sont associés à des informations techniques : modèle et fabricant de l’appareil, version Android et de l’application, langue, fuseau horaire et type de réseau. Les serveurs destinataires reçoivent aussi l’adresse IP de connexion. Ces diagnostics ne contiennent pas les grilles ou statistiques de jeu. Leur traitement et leur conservation par Google suivent sa politique de confidentialité ; l’éditeur n’accède pas à ces journaux et ne peut pas les effacer à distance."
+      ],
+      [
+        "Enfants et familles",
+        "Cosy Games est destinée aux personnes de 9 ans et plus. Elle ne comporte ni messagerie entre joueurs, ni publicité, ni demande de nom, d’âge ou de position. Les achats restent facultatifs et passent par Google Play ; les familles peuvent utiliser les contrôles parentaux et les demandes d’approbation de Google Play. Pour l’assistance, nous invitons les enfants à passer par un parent et à ne pas envoyer d’informations personnelles inutiles."
+      ]
     ],
     "host_privacy": "Déclaration de confidentialité de GitHub",
     "not_found": "Cette page est introuvable.",
-    "back": "Retour à la collection"
+    "back": "Retour à la collection",
+    "data_help": "Comment supprimer vos données",
+    "publisher_details": "Informations sur l’éditeur",
+    "google_privacy": "Politique de confidentialité de Google"
   },
   "es": {
     "language": "Español",
@@ -94,32 +198,84 @@
     "availability": "En desarrollo. Aún no disponible en Google Play.",
     "collection": "La colección",
     "collection_intro": "Un reto para ti. Un tablero para compartir.",
-    "games": ["Sudoku", "Adivina la palabra", "Buscaminas", "Nonogramas", "Crucigramas", "Ajedrez", "Damas internacionales", "Yam’s"],
+    "games": [
+      "Sudoku",
+      "Adivina la palabra",
+      "Buscaminas",
+      "Nonogramas",
+      "Crucigramas",
+      "Ajedrez",
+      "Damas internacionales",
+      "Yam’s"
+    ],
     "solo": "Individual",
     "duo": "1–2 jugadores",
     "details": "Pensada para la tinta electrónica",
     "features": [
-      ["Sin conexión desde el principio", "No necesitas una cuenta. Los tableros, diccionarios y partidas guardadas están disponibles sin conexión a internet."],
-      ["Tinta electrónica y otras pantallas", "Una interfaz monocroma sin animaciones de la aplicación. Optimizada para lectores electrónicos y adaptada también a teléfonos y tabletas Android."],
-      ["Tu idioma, tu ritmo", "Español, inglés y francés, según los ajustes del dispositivo. Retoma tu partida cuando quieras."]
+      [
+        "Sin conexión desde el principio",
+        "No necesitas una cuenta. Los tableros, diccionarios y partidas guardadas están disponibles sin conexión a internet."
+      ],
+      [
+        "Tinta electrónica y otras pantallas",
+        "Una interfaz monocroma sin animaciones de la aplicación. Optimizada para lectores electrónicos y adaptada también a teléfonos y tabletas Android."
+      ],
+      [
+        "Tu idioma, tu ritmo",
+        "Español, inglés y francés, según los ajustes del dispositivo. Retoma tu partida cuando quieras."
+      ]
     ],
-    "limits": "La beta incluye 5 vidas diarias y 5 pistas al día, compartidas entre los juegos. Continuar una partida no consume una vida.",
+    "limits": "La aplicación incluye 5 vidas diarias compartidas entre los juegos. Continuar una partida no consume una vida.",
     "contact_title": "Sigamos en contacto",
     "contact_body": "¿Tienes alguna pregunta sobre la aplicación, la accesibilidad o tus datos? Escríbenos.",
     "privacy": "Privacidad",
     "home": "Inicio",
-    "privacy_intro": "Esta política se aplica a la beta actual de Cosy Games para Android y a este sitio web.",
+    "privacy_intro": "Esta política describe los datos utilizados por Cosy Games para Android, cosygames.app y el servicio de asistencia.",
     "updated": "Última actualización",
     "draft": "Vista previa — texto de privacidad pendiente de revisión antes de publicarse.",
     "privacy_sections": [
-      ["Datos en la aplicación Android", "Cosy Games no requiere una cuenta. La beta actual no nos envía datos de las partidas ni incluye SDK de analítica, publicidad o pagos. Guarda localmente las partidas, estadísticas, tiempo de juego, preferencias de tema, vidas y pistas para que puedas continuar jugando."],
-      ["Conservación y eliminación", "Los datos locales se conservan hasta que los elimines o desinstales la aplicación. Algunas actualizaciones de la beta reinician las partidas; la aplicación conserva las estadísticas y el tema. Puedes borrar los datos desde los ajustes de Android. Las copias de seguridad del sistema o las transferencias entre dispositivos pueden incluir estos datos, según los ajustes de Android y el dispositivo; Cosy Games no ofrece sincronización en la nube."],
-      ["Este sitio web", "Este sitio estático no establece cookies, no utiliza analítica ni carga fuentes externas o publicidad. Está alojado en GitHub Pages. GitHub registra las direcciones IP de los visitantes por motivos de seguridad, de acuerdo con su propia declaración de privacidad."],
-      ["Contacto por correo electrónico", "Si nos escribes, tu dirección y la información que compartas se utilizarán para responder a tu consulta. Evita enviar datos sensibles innecesarios. Puedes usar la misma dirección para solicitar el acceso, la rectificación o la eliminación de la correspondencia que conservemos sobre ti, sin perjuicio de las obligaciones aplicables. No podemos acceder a las partidas guardadas en tu dispositivo ni recuperarlas."],
-      ["Cambios futuros", "La publicidad y las compras integradas están previstas, pero no están activas en la beta actual. Esta política se actualizará antes de introducir nuevos tratamientos de datos."]
+      [
+        "Datos en la aplicación Android",
+        "Cosy Games funciona sin cuenta de la aplicación, sin publicidad y sin herramientas de medición de audiencia añadidas por el editor. Las partidas, estadísticas, tiempos, preferencias y saldos de vidas se procesan en tu dispositivo. Ningún servidor del editor recibe estos datos. Los servicios de Google Play utilizados para los pagos y sus diagnósticos se describen por separado a continuación."
+      ],
+      [
+        "Conservación y eliminación",
+        "Los datos locales se conservan hasta que los borres o desinstales la app. Las actualizaciones beta pueden reiniciar partidas, pero conservan estadísticas, preferencias, saldos y registros de compra. Las copias automáticas de Android y la transferencia de datos entre dispositivos están desactivadas. Las vidas de paquetes consumidos se pierden al desinstalar o borrar los datos y no se transfieren. Las vidas ilimitadas se restauran con la misma cuenta de Google Play. Cosy Games no ofrece sincronización en la nube."
+      ],
+      [
+        "Este sitio web",
+        "Este sitio estático no establece cookies, no utiliza analítica ni carga fuentes externas o publicidad. Está alojado en GitHub Pages. GitHub registra las direcciones IP de los visitantes por motivos de seguridad, de acuerdo con su propia declaración de privacidad."
+      ],
+      [
+        "Contacto por correo electrónico",
+        "Escribir a contact@cosygames.app es opcional. Tu dirección, mensaje y archivos adjuntos se utilizan para responder y hacer seguimiento de tu consulta, sobre la base de nuestro interés legítimo en prestar asistencia. El correo está alojado por Google (Gmail). Los mensajes se conservan durante la gestión y el seguimiento necesario; un litigio o una obligación legal pueden exigir una conservación adicional. Evita los datos sensibles innecesarios. No podemos acceder a las partidas guardadas en tu dispositivo ni recuperarlas."
+      ],
+      [
+        "Seguridad y comunicación de datos",
+        "Las partidas y los registros de compra se guardan en el almacenamiento privado de Android, protegido por el sistema. Ningún servidor del editor recibe estos archivos. No vendemos datos de las partidas ni los enviamos a socios publicitarios. Google procesa los pagos mediante Google Play; la app no recibe los datos de tu tarjeta bancaria."
+      ],
+      [
+        "Tus solicitudes de privacidad",
+        "Utiliza contact@cosygames.app para consultas y solicitudes sobre los correos de asistencia. Según la legislación aplicable, puedes solicitar acceso, rectificación, eliminación, limitación u oponerte al tratamiento, y presentar una reclamación ante tu autoridad de protección de datos. Los datos locales se borran desde los ajustes de Android; no podemos eliminarlos a distancia."
+      ],
+      [
+        "Pagos de Google Play",
+        "Los paquetes de 10 o 100 vidas y las vidas ilimitadas son pagos únicos opcionales, sin suscripción, gestionados por Google Play. La aplicación recibe referencias de productos, recibos firmados, tokens y estados de las transacciones para entregar vidas, verificar y restaurar derechos y evitar abonos duplicados. Las firmas se verifican en el dispositivo; las solicitudes de consumo y confirmación se envían a Google Play. Nunca recibimos datos de tarjetas bancarias. El tratamiento de pagos de Google también se rige por sus condiciones y su política de privacidad."
+      ],
+      [
+        "Diagnósticos del servicio de pagos",
+        "Google Play Billing envía a Google eventos técnicos sobre el uso de sus API, resultados, errores y conexiones al servicio para mejorar su fiabilidad. Pueden producirse al iniciar la tienda, incluso sin realizar un pago. Incluyen información técnica como modelo y fabricante del dispositivo, versiones de Android y de la aplicación, idioma, zona horaria y tipo de red. Los servidores destinatarios también reciben la dirección IP de conexión. Estos diagnósticos no contienen cuadrículas ni estadísticas de juego. Google los trata y conserva según su política de privacidad; el editor no accede a estos registros ni puede borrarlos a distancia."
+      ],
+      [
+        "Menores y familias",
+        "Cosy Games está dirigida a personas de 9 años en adelante. No incluye mensajes entre jugadores ni publicidad, y no solicita nombre, edad ni ubicación. Los pagos son opcionales y se realizan a través de Google Play; las familias pueden utilizar sus controles parentales y aprobaciones de compras. Para la asistencia, recomendamos que los menores pidan ayuda a sus padres y eviten enviar información personal innecesaria."
+      ]
     ],
     "host_privacy": "Declaración de privacidad de GitHub",
     "not_found": "No encontramos esta página.",
-    "back": "Volver a la colección"
+    "back": "Volver a la colección",
+    "data_help": "Cómo eliminar tus datos",
+    "publisher_details": "Información del editor",
+    "google_privacy": "Política de privacidad de Google"
   }
 }

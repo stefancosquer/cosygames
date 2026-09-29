@@ -2,10 +2,11 @@
 {% assign t = site.data.content[page.lang] %}
 {% assign locale = site.data.locales[page.lang] %}
 {% assign suffix = '' %}
-{% if page.kind == 'privacy' %}{% assign suffix = 'privacy/' %}{% endif %}
-{% capture page_title %}{% if page.kind == 'privacy' %}{{ t.privacy }} — {{ site.title }}{% elsif page.kind == 'missing' %}{{ t.not_found }} — {{ site.title }}{% else %}{{ t.title }}{% endif %}{% endcapture %}
+{% if page.kind == 'privacy' or page.kind == 'legal' or page.kind == 'support' %}{% assign suffix = page.kind | append: '/' %}{% endif %}
+{% assign info = site.data.information[page.lang][page.kind] %}
+{% capture page_title %}{% if page.kind == 'privacy' %}{{ t.privacy }} — {{ site.title }}{% elsif page.kind == 'legal' or page.kind == 'support' %}{{ info.title }} — {{ site.title }}{% elsif page.kind == 'missing' %}{{ t.not_found }} — {{ site.title }}{% else %}{{ t.title }}{% endif %}{% endcapture %}
 {% assign description = t.description %}
-{% if page.kind == 'privacy' %}{% assign description = t.privacy_intro %}{% endif %}
+{% if page.kind == 'privacy' %}{% assign description = t.privacy_intro %}{% elsif page.kind == 'legal' or page.kind == 'support' %}{% assign description = info.intro %}{% endif %}
 <html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8">

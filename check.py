@@ -45,7 +45,14 @@ def check():
         assert text.keys() == content['en'].keys(), f'Missing translations: {lang}'
         assert len(text['games']) == 8
         assert len(text['features']) == 3
-        assert len(text['privacy_sections']) == 5
+        assert len(text['privacy_sections']) == 9
+    information = json.loads((ROOT/'_data/information.json').read_text())
+    assert set(information) == set(content)
+    for lang, kinds in information.items():
+        assert set(kinds) == {'legal', 'support'}
+        for kind, values in kinds.items():
+            assert values.keys() == information['en'][kind].keys()
+            assert [s['id'] for s in values['sections']] == [s['id'] for s in information['en'][kind]['sections']]
     pages = {}
     for path in OUTPUT.rglob('*.html'):
         page = Page()
@@ -54,7 +61,7 @@ def check():
         assert page.scripts == 0, path
         assert set(page.alternates) == {'en','fr','es','x-default'}, path
         pages[path.resolve()] = page
-    assert len(pages) == 7, 'Six translated pages and one 404 required'
+    assert len(pages) == 13, 'Twelve translated pages and one 404 required'
     for source, page in pages.items():
         for link in page.links:
             parsed = urlsplit(link)
@@ -68,7 +75,7 @@ def check():
             if parsed.fragment:
                 assert parsed.fragment in pages[target].ids, f'Broken anchor: {link}'
     urls = ET.parse(OUTPUT/'sitemap.xml').findall('{*}url/{*}loc')
-    assert len(urls) == 6
+    assert len(urls) == 12
     for url in urls:
         assert (OUTPUT / urlsplit(url.text).path.lstrip('/') / 'index.html').exists()
     assert (OUTPUT/'CNAME').read_text().strip() == 'cosygames.app'

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% assign info = site.data.information[page.lang][page.kind] %}
+<main id="main" class="prose">
+  {% if page.kind == 'legal' and site.publication_reviewed != true %}<p class="draft">{{ info.draft }}</p>{% endif %}
+  <h1>{{ info.title }}</h1>
+  <p>{{ info.intro }}</p>
+  {% if page.kind == 'legal' %}
+  <section>
+    <h2>{{ info.publisher }}</h2>
+    {% if site.data.publisher.name == '' %}<p>{{ info.pending }}</p>{% endif %}
+    <dl class="legal-details">
+      {% for field in site.data.publisher %}{% unless field[1] == '' %}
+      {% assign field_name = field[0] %}<dt>{{ info.labels[field_name] }}</dt><dd>{{ field[1] | escape | newline_to_br }}</dd>
+      {% endunless %}{% endfor %}
+    </dl>
+    <p><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
+  </section>
+  <section><h2>{{ info.hosting }}</h2>
+    <p>GitHub Pages — GitHub, Inc.<br>88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA.</p>
+    <p>GitHub B.V.<br>Prins Bernhardplein 200, 1097 JB Amsterdam, Netherlands.</p>
+    <p><a href="https://support.github.com/contact">{{ info.hosting_contact }}</a></p>
+  </section>
+  {% else %}
+  <p><a href="mailto:{{ site.contact }}">{{ info.contact }} : {{ site.contact }}</a></p>
+  {% endif %}
+  {% for section in info.sections %}
+  <section id="{{ section.id }}"><h2>{{ section.title }}</h2><p>{{ section.body }}</p></section>
+  {% endfor %}
+  {% if page.kind == 'legal' %}<p><a href="{{ '/assets/LICENSE.txt' | relative_url }}">{{ info.font_license }}</a></p>{% endif %}
+</main>

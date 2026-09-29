@@ -1,0 +1,215 @@
+{
+  "en": {
+    "legal": {
+      "title": "Legal notice",
+      "intro": "Publisher and hosting information for cosygames.app and the Cosy Games Android application.",
+      "draft": "Draft — the publisher’s identity and legal details still need to be confirmed.",
+      "publisher": "Publisher",
+      "pending": "Publisher identification is being completed. For questions, contact the address below.",
+      "labels": {
+        "name": "Name",
+        "status": "Legal status",
+        "address": "Address",
+        "country": "Country",
+        "phone": "Telephone",
+        "registration": "Registration",
+        "vat": "VAT number",
+        "director": "Publication director"
+      },
+      "hosting": "Hosting",
+      "hosting_contact": "Contact GitHub",
+      "sections": [
+        {
+          "id": "content",
+          "title": "Website content",
+          "body": "Cosy Games presents eight offline puzzle and board games for Android. The app is in testing and is not yet publicly available. It offers life packs and unlimited lives through Google Play, without advertising or subscriptions. No payments take place on this website."
+        },
+        {
+          "id": "resources",
+          "title": "Resources and intellectual property",
+          "body": "The site uses original game illustrations and the Cosy Games app icon. Roboto fonts are distributed under the Apache License 2.0; the font licence is available below. Publishing the website source code does not grant rights to third-party trademarks or to the private application code."
+        }
+      ],
+      "font_license": "Roboto font licence"
+    },
+    "support": {
+      "title": "Help & contact",
+      "intro": "Support for Cosy Games, the offline Android games collection.",
+      "contact": "Email support",
+      "sections": [
+        {
+          "id": "contact",
+          "title": "Report a problem",
+          "body": "Email contact@cosygames.app with the game, app version, device model, Android version and the steps that reproduce the problem. A screenshot can help; remove personal information before sending it. Never send passwords or payment details."
+        },
+        {
+          "id": "saved-games",
+          "title": "Saved games",
+          "body": "Progress is stored on your device and saved after each move. There is no Cosy Games account or cloud synchronisation. We cannot access or restore your local games remotely."
+        },
+        {
+          "id": "delete-data",
+          "title": "Delete your local data",
+          "body": "There is no account to delete. To erase the app’s local data, open Android Settings → Apps → Cosy Games → Storage → Clear storage / Clear data. Labels vary by device. This permanently removes saved games, statistics, lives, purchase records and preferences from this installation. Clearing the cache alone does not erase these data. Extra lives are lost; unlimited lives can be restored with the same Google Play account. Automatic backup and transfer of app data are disabled."
+        },
+        {
+          "id": "email-data",
+          "title": "Delete support correspondence",
+          "body": "To request deletion of correspondence held by support, write to contact@cosygames.app, preferably from the address used in the original exchange. This request concerns emails, not saved games on your device. Any applicable retention obligation will be explained when we respond."
+        },
+        {
+          "id": "limits",
+          "title": "Lives",
+          "body": "Five daily lives are reset each day without accumulation and are used before additional lives. Resuming a game does not use a life. Packs and unlimited lives are available through Google Play in compatible test versions. Packs remain on the installation and are lost after data deletion or uninstallation; unlimited lives can be restored with the same Google Play account. No on-demand hints or advertising."
+        },
+        {
+          "id": "e-ink",
+          "title": "E-ink screens",
+          "body": "Cosy Games uses a monochrome interface without app animations. Physical refresh and ghosting also depend on the device. If flashes are distracting, try a faster refresh mode in your reader’s settings."
+        }
+      ]
+    }
+  },
+  "fr": {
+    "legal": {
+      "title": "Mentions légales",
+      "intro": "Informations sur l’éditeur et l’hébergement de cosygames.app et de l’application Android Cosy Games.",
+      "draft": "Brouillon — identité et informations légales de l’éditeur à confirmer.",
+      "publisher": "Éditeur",
+      "pending": "Les informations d’identification de l’éditeur sont en cours de finalisation. Pour toute question, utilisez le contact ci-dessous.",
+      "labels": {
+        "name": "Nom",
+        "status": "Statut",
+        "address": "Adresse",
+        "country": "Pays",
+        "phone": "Téléphone",
+        "registration": "Immatriculation",
+        "vat": "Numéro de TVA",
+        "director": "Direction de la publication"
+      },
+      "hosting": "Hébergement",
+      "hosting_contact": "Contacter GitHub",
+      "sections": [
+        {
+          "id": "content",
+          "title": "Contenu du site",
+          "body": "Cosy Games présente huit jeux de réflexion et de société hors ligne pour Android. L’application est en test et n’est pas encore disponible au public. Elle propose des packs de vies et des vies illimitées via Google Play, sans publicité ni abonnement. Aucun paiement n’est effectué sur ce site."
+        },
+        {
+          "id": "resources",
+          "title": "Ressources et propriété intellectuelle",
+          "body": "Le site utilise des illustrations originales des jeux et l’icône de l’application Cosy Games. Les polices Roboto sont distribuées sous licence Apache 2.0, accessible ci-dessous. La publication du code source du site ne confère aucun droit sur les marques de tiers ni sur le code privé de l’application."
+        }
+      ],
+      "font_license": "Licence de la police Roboto"
+    },
+    "support": {
+      "title": "Aide et contact",
+      "intro": "Assistance pour Cosy Games, la collection de jeux Android hors ligne.",
+      "contact": "Contacter l’assistance",
+      "sections": [
+        {
+          "id": "contact",
+          "title": "Signaler un problème",
+          "body": "Écrivez à contact@cosygames.app en indiquant le jeu, la version de l’application, le modèle de l’appareil, la version Android et les étapes permettant de reproduire le problème. Une capture peut aider ; retirez les informations personnelles avant l’envoi. Ne transmettez jamais de mot de passe ni de données de paiement."
+        },
+        {
+          "id": "saved-games",
+          "title": "Parties sauvegardées",
+          "body": "La progression est stockée sur votre appareil et sauvegardée après chaque coup. Il n’existe ni compte Cosy Games ni synchronisation dans le cloud. Nous ne pouvons pas accéder à vos parties locales ni les restaurer à distance."
+        },
+        {
+          "id": "delete-data",
+          "title": "Supprimer vos données locales",
+          "body": "Il n’y a pas de compte à supprimer. Pour effacer les données locales, ouvrez les paramètres Android → Applications → Cosy Games → Stockage → Effacer le stockage / les données. Les libellés varient selon l’appareil. Cette opération supprime définitivement les parties, statistiques, vies, justificatifs d’achats et préférences de cette installation. Vider uniquement le cache ne supprime pas ces données. Les vies supplémentaires sont perdues ; l’illimité se restaure avec le même compte Google Play. Sauvegarde automatique et transfert des données de l’app sont désactivés."
+        },
+        {
+          "id": "email-data",
+          "title": "Supprimer les échanges avec l’assistance",
+          "body": "Pour demander la suppression des échanges conservés par l’assistance, écrivez à contact@cosygames.app, de préférence depuis l’adresse utilisée lors du premier contact. Cette demande concerne les e-mails, pas les parties présentes sur votre appareil. Une éventuelle obligation de conservation vous sera précisée dans notre réponse."
+        },
+        {
+          "id": "limits",
+          "title": "Vies",
+          "body": "Cinq vies du jour sont réinitialisées chaque jour, sans cumul, et utilisées avant les vies supplémentaires. Reprendre une partie ne consomme pas de vie. Les packs et l’illimité sont disponibles via Google Play dans les versions de test compatibles. Les packs restent sur l’installation et sont perdus après effacement ou désinstallation ; l’illimité se restaure avec le même compte Google Play. Aucun indice à la demande ni publicité."
+        },
+        {
+          "id": "e-ink",
+          "title": "Écrans e-ink",
+          "body": "Cosy Games utilise une interface monochrome sans animation applicative. Le rafraîchissement physique et la rémanence dépendent aussi de l’appareil. Si les clignotements vous gênent, essayez un mode de rafraîchissement plus rapide dans les réglages de la liseuse."
+        }
+      ]
+    }
+  },
+  "es": {
+    "legal": {
+      "title": "Aviso legal",
+      "intro": "Información sobre el editor y el alojamiento de cosygames.app y de la aplicación Android Cosy Games.",
+      "draft": "Borrador — quedan por confirmar la identidad y los datos legales del editor.",
+      "publisher": "Editor",
+      "pending": "Se están completando los datos de identificación del editor. Para cualquier consulta, utiliza el contacto que aparece a continuación.",
+      "labels": {
+        "name": "Nombre",
+        "status": "Forma jurídica",
+        "address": "Dirección",
+        "country": "País",
+        "phone": "Teléfono",
+        "registration": "Registro",
+        "vat": "Número de IVA",
+        "director": "Dirección de la publicación"
+      },
+      "hosting": "Alojamiento",
+      "hosting_contact": "Contactar con GitHub",
+      "sections": [
+        {
+          "id": "content",
+          "title": "Contenido del sitio",
+          "body": "Cosy Games presenta ocho juegos de lógica y de mesa sin conexión para Android. La aplicación está en pruebas y aún no está disponible para el público. Ofrece paquetes de vidas y vidas ilimitadas a través de Google Play, sin publicidad ni suscripciones. Este sitio web no procesa pagos."
+        },
+        {
+          "id": "resources",
+          "title": "Recursos y propiedad intelectual",
+          "body": "El sitio utiliza ilustraciones originales de los juegos y el icono de la aplicación Cosy Games. Las fuentes Roboto se distribuyen bajo la licencia Apache 2.0, disponible a continuación. La publicación del código del sitio no otorga derechos sobre marcas de terceros ni sobre el código privado de la aplicación."
+        }
+      ],
+      "font_license": "Licencia de la fuente Roboto"
+    },
+    "support": {
+      "title": "Ayuda y contacto",
+      "intro": "Asistencia para Cosy Games, la colección de juegos Android sin conexión.",
+      "contact": "Contactar con asistencia",
+      "sections": [
+        {
+          "id": "contact",
+          "title": "Informar de un problema",
+          "body": "Escribe a contact@cosygames.app indicando el juego, la versión de la aplicación, el modelo del dispositivo, la versión de Android y los pasos para reproducir el problema. Una captura puede ayudar; elimina los datos personales antes de enviarla. Nunca envíes contraseñas ni datos de pago."
+        },
+        {
+          "id": "saved-games",
+          "title": "Partidas guardadas",
+          "body": "El progreso se almacena en tu dispositivo y se guarda después de cada movimiento. No hay cuentas de Cosy Games ni sincronización en la nube. No podemos acceder a tus partidas locales ni restaurarlas a distancia."
+        },
+        {
+          "id": "delete-data",
+          "title": "Eliminar tus datos locales",
+          "body": "No hay una cuenta que eliminar. Para borrar los datos locales, abre Ajustes de Android → Aplicaciones → Cosy Games → Almacenamiento → Borrar almacenamiento / Borrar datos. Los nombres varían según el dispositivo. Esta acción elimina permanentemente las partidas, estadísticas, vidas, registros de compra y preferencias de esta instalación. Borrar solo la caché no elimina estos datos. Las vidas adicionales se pierden; las ilimitadas se restauran con la misma cuenta de Google Play. La copia automática y la transferencia de datos de la app están desactivadas."
+        },
+        {
+          "id": "email-data",
+          "title": "Eliminar la correspondencia con asistencia",
+          "body": "Para solicitar la eliminación de los mensajes conservados por asistencia, escribe a contact@cosygames.app, preferiblemente desde la dirección usada en el primer contacto. La solicitud se refiere a los correos, no a las partidas de tu dispositivo. Te explicaremos cualquier obligación de conservación aplicable al responder."
+        },
+        {
+          "id": "limits",
+          "title": "Vidas",
+          "body": "Las cinco vidas del día se restablecen cada día, sin acumularse, y se utilizan antes que las vidas adicionales. Reanudar una partida no consume vidas. Los paquetes y las vidas ilimitadas están disponibles mediante Google Play en las versiones de prueba compatibles. Los paquetes se pierden al borrar los datos o desinstalar; las vidas ilimitadas se restauran con la misma cuenta de Google Play. Sin pistas a petición ni publicidad."
+        },
+        {
+          "id": "e-ink",
+          "title": "Pantallas de tinta electrónica",
+          "body": "Cosy Games utiliza una interfaz monocroma sin animaciones de la aplicación. El refresco físico y las imágenes residuales también dependen del dispositivo. Si los destellos resultan molestos, prueba un modo de refresco más rápido en los ajustes del lector."
+        }
+      ]
+    }
+  }
+}
