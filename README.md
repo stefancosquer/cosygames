@@ -38,8 +38,9 @@ Configure the domain DNS for GitHub Pages, then enforce HTTPS when the certifica
 is available. Preserve email DNS records. See the official
 [custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
-The privacy text remains a draft. `publication_reviewed: false` keeps a visible
-notice and `noindex` even in production, without blocking deployment. Complete the
+The editorial review remains pending. At the publisher’s request (2 October 2026),
+public Preview/Draft banners are hidden. `publication_reviewed: false` still keeps
+`noindex` in production, without blocking deployment. Complete the
 publisher details, review the three policies and confirm the contact mailbox
 before setting it to true. This flag is an editorial status, not legal certification.
 Contact: contact@cosygames.app.

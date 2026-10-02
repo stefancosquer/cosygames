@@ -3,7 +3,6 @@ layout: default
 ---
 {% assign t = site.data.content[page.lang] %}
 <main id="main" class="prose">
-  {% unless site.publication_reviewed %}<p class="draft">{{ t.draft }}</p>{% endunless %}
   <h1>{{ t.privacy }}</h1>
   <p>{{ t.privacy_intro }}</p>
   <p class="updated">{{ t.updated }} : <time datetime="{{ site.privacy_updated }}">{{ site.privacy_updated }}</time></p>

@@ -3,7 +3,6 @@ layout: default
 ---
 {% assign info = site.data.information[page.lang][page.kind] %}
 <main id="main" class="prose">
-  {% if page.kind == 'legal' and site.publication_reviewed != true %}<p class="draft">{{ info.draft }}</p>{% endif %}
   <h1>{{ info.title }}</h1>
   <p>{{ info.intro }}</p>
   {% if page.kind == 'legal' %}

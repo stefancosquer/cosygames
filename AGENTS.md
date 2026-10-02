@@ -12,8 +12,9 @@
 - No analytics, cookies, third-party scripts or fabricated store/download links.
 - Never describe the privacy policy as reviewed while publication_reviewed is false.
 - Do not infer or publish the publisher's personal details. Use only explicitly
-  confirmed public details in _data/publisher.json. Keep legal and privacy pages
-  marked as drafts until the pending publication checks in README.md are resolved.
+  confirmed public details in _data/publisher.json. The publisher requested removal of visible Preview/Draft banners on 2 October
+  2026. Keep the pending checks documented in README.md and do not set
+  publication_reviewed to true merely because these banners are hidden.
 - After edits, run bundle exec jekyll build, python3 check.py, and inspect affected
   layouts in the browser. Do not add Flutter dependencies to this repository.
 - Every push to main deploys the site after validation; PRs never deploy. Publish
